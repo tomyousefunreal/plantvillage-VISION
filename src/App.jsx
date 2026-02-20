@@ -293,7 +293,7 @@ export default function App() {
       {/* --- NAVBAR --- */}
       <nav className="fixed top-0 w-full z-50 glass border-b border-white/5 py-3 px-6 md:px-12 flex justify-between items-center transition-all">
         <div className="flex items-center gap-3 cursor-pointer" onClick={() => window.scrollTo(0, 0)}>
-          <img src="/logo.jpg" alt="Logo" className="w-12 h-12 md:w-14 md:h-14 logo-nav object-contain" />
+          <img src="./logo.jpg" alt="Logo" className="w-12 h-12 md:w-14 md:h-14 logo-nav object-contain" />
           <span className="font-bold text-xl md:text-2xl tracking-wide hidden md:block text-gradient-gold">
             {curr.short_company}
           </span>
@@ -320,7 +320,7 @@ export default function App() {
           <motion.div initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8 }} className="flex-1 space-y-8 text-center lg:text-start">
             
             <motion.div initial={{ scale: 0.8, opacity: 0 }} animate={{ scale: 1, opacity: 1 }} transition={{ delay: 0.2, duration: 0.6 }} className="flex justify-center lg:justify-start mb-6">
-              <img src="/logo.jpg" alt="Logo" className="w-32 h-32 md:w-40 md:h-40 logo-hero object-contain" />
+              <img src="./logo.jpg" alt="Logo" className="w-32 h-32 md:w-40 md:h-40 logo-hero object-contain" />
             </motion.div>
 
             <div className="vision-badge mx-auto lg:mx-0 shadow-lg">
@@ -608,7 +608,7 @@ export default function App() {
         {/* --- FOOTER / CONTACT --- */}
         <footer className="border-t border-white/10 pt-20 mt-32 relative">
           <div className="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-[#020a06] px-8">
-            <img src="/logo.jpg" alt="Logo" className="w-16 h-16 rounded-full logo-nav" />
+            <img src="./logo.jpg" alt="Logo" className="w-16 h-16 rounded-full logo-nav" />
           </div>
           
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-12">
